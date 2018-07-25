@@ -1,0 +1,23 @@
+{
+  "name": "jest-async-teardown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tomer <tomer@corevo.io>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "jest-environment-selenium/dist/setup.js",
+    "testEnvironmentOptions": {
+      "capabilities": {
+        "browserName": "firefox"
+      }
+    }
+  },
+  "dependencies": {
+    "jest": "^23.4.1",
+    "jest-environment-selenium": "^1.1.0",
+    "selenium-webdriver": "3.6.0"
+  }
+}
