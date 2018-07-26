@@ -13,7 +13,7 @@ It will cause jest to unexpectedly exit, before even giving time to quit the dri
 
 ## Proposed solution
 
-A change to `perform()`
+A change to `perform()`.  
 https://github.com/SeleniumHQ/selenium/blob/selenium-3.6.0/javascript/node/selenium-webdriver/lib/actions.js#L116
 
 ```js
